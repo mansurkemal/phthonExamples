@@ -19,13 +19,3 @@ print(mesaj)
 isim= "Ahmet"
 yas= "17"
 print(f"{isim} , {yas} yaşındadır")
-sayı1 = 5
-sayı2 = 4.5
-print(type(sayı2))
-sayı = 7 ** 15
-print(sayı)
-sayı3 = 17 / 7
-print(sayı3)
-print(sayı * sayı3)
-print(sayı == sayı)
-print(sayı != sayı3)
