@@ -32,5 +32,24 @@ print(maas1)
 print(maas2)
 print(maas3)
 
+isim=input("Adınızı giriniz: ")
+print(isim)
+dogumTarihikemal=input("Doğum tarihinizi Giriniz: ")
+kemalYas=2022-int(dogumTarihikemal)
+print("kemal'in yaşı : " , kemalYas)
 
-
+pi=3.14
+r=input("Yarıçapını Giriniz: ")
+alan=pi*(int(r)**2)
+cevre=2*pi*int(r)
+print(alan)
+print(cevre)
+print("Daire'nin alanı: ", int(alan))
+print("Daire'nin çevre: ", int(cevre))
+ 
+adım="Kemal"
+yas="14"
+dogumTarihi="2008"
+bilgilerim=("Benim adım"" " + adım +" " , "yaşım"" " + yas  +" "  "ve"" " + dogumTarihi +" " "yılında doğdum")
+print(bilgilerim)
+print("Benim adım"" " + adım +" " , "yaşım"" " + yas  +" "  "ve"" " + dogumTarihi +" " "yılında doğdum")

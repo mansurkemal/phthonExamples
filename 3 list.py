@@ -47,3 +47,28 @@ liste2 = sorted(renkler)
 print(liste2)
 
 print(renkler)
+
+renkler = ["beyaz", "siyah", "sarı", "mavi", "yeşil"]
+sayılar = [1,2,5,6,4,56,456,344]
+print(min(renkler))
+print(min(sayılar))
+print(max(renkler))
+print(max(sayılar))
+print(sum(sayılar))
+
+for renk in renkler:
+    print(renk)
+print(list(enumerate(renkler)))
+print(list(enumerate(renkler,start=2)))
+print("Beyaz" in renkler)
+print("beyaz" in renkler)
+stringrenkler = "".join(renkler)
+print(stringrenkler)
+stringrenkler = " ".join(renkler)
+print(stringrenkler)
+stringrenkler = ",".join(renkler)
+print(stringrenkler)
+print(type(stringrenkler))
+renkler2 = stringrenkler.split(",")
+print(renkler2)
+print(type(renkler2))
